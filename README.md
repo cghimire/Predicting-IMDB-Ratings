@@ -29,17 +29,17 @@ I have used hollywood movie data set and their rating from IMDb movie rating. I 
 
 ![alt text](https://github.com/cghimire/Predicting-IMDB-Ratings/blob/master/Img/distribution_rating.png "Distribution Plot")
 
-*This plot demonstrates the correlation between different variables. There is no strong relation between predictors and predicted variable y, however, there is some relationship between predictor variable duration and predicted output y*.
-![alt text](https://raw.githubusercontent.com/cghimire/Bank-Marketing-Data-Mining/master/Figures/Job_barplot.png "Job bar plot")
+*This plot demonstrates the distribution of IMDb ratings*.
+![alt text](https://github.com/cghimire/Predicting-IMDB-Ratings/blob/master/Img/fblikes_rating.png "fblikesVSrating")
 
 *This plot shows the number of clients Vs job category. The highest number of clients are from the job category "admin" followed by blue-color category. Similarly,
 there are less students involved in the telemarketing campaign*.
 
 ## ⛏️ Data Preparation <a name = "data-preparation"></a>
 
-![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/RemoveOutlier_%20campaignVariable.png "Outlier before and after")
+![alt text](https://github.com/cghimire/Predicting-IMDB-Ratings/blob/master/Img/correlation.png "correlation matrix")
 
-*This figure compares the two different plots with outliers and without outliers*.
+*This figure shows that the correlation matrix between variables. The "cast_total_facebook_likes" has a strong positive correlation with the "actor_1_facebook_likes", and has smaller positive correlation with both "actor_2_facebook_likes" and "actor_3_facebook_likes" ans so on.*
 
 ## 🚀 Data Modeling <a name = "data-modeling"></a>
 
