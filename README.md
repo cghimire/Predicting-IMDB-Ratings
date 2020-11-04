@@ -32,8 +32,7 @@ I have used hollywood movie data set and their rating from IMDb movie rating. I 
 *This plot demonstrates the distribution of IMDb ratings*.
 ![alt text](https://github.com/cghimire/Predicting-IMDB-Ratings/blob/master/Img/fblikes_rating.png "fblikesVSrating")
 
-*This plot shows the number of clients Vs job category. The highest number of clients are from the job category "admin" followed by blue-color category. Similarly,
-there are less students involved in the telemarketing campaign*.
+*This plot demonstrates that social media would be an excellent place to estimate the popularity of movies. From the scatter plot above, we can find that the movies with high facebook likes tend to be the ones that have IMDb scores around 7.0 to 8.0. It is interesting to see that the good movies, with an IMDb score of around 9.0, does not have more Facebook popularity.*
 
 ## ⛏️ Data Preparation <a name = "data-preparation"></a>
 
