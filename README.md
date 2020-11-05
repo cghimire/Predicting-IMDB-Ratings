@@ -42,12 +42,14 @@ I have used hollywood movie data set and their rating from IMDb movie rating. I 
 
 ## 🚀 Data Modeling <a name = "data-modeling"></a>
 
-In order to model the data, I am performing three data-mining classification techniques: 1) Logistic Regression 2)Decision Tree Model 3) Random Forest Model.
+In order to model the data, I performed regression techniques: 1)Linear regression Regression 2)KNN Model 3) Random Forest Model.
 
-![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/Decision%20Tree_final.png "Decision Tree")
+![alt text](https://github.com/cghimire/Predicting-IMDB-Ratings/blob/master/Img/KNN.png "KNN")
 
+The accuracy for linear regression model is 66%.Which is very bad model to predict imdb rating!. The KNN model gives 81% of accuracy. Which is not bad model to predict imdb rating. 
 
-*This figure represents the decision tree structure. For example, If number of employed is greater than 5088, then that client belongs to NO category with 94% of probability: that means the client is more likely to say NO*.
+Our model has now been trained to learn the relationships between the features and the targets. The next step is figuring out how good the model is! To do this we make predictions on the test features. We then compare the predictions to the known answers. That looks pretty good! Our model has learned how to predict the imdb rating with 90% accuracy.
+By comparing the results, I would suggest Random Forest Model could be useful to deploy into production.
 
 ## Model Evaluation and Conclusion <a name = "model-evaluation-and-conclusion"></a>
 
