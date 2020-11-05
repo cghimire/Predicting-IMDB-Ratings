@@ -40,9 +40,11 @@ I have used hollywood movie data set and their rating from IMDb movie rating. I 
 
 ## 🚀 Data Modeling and Conclusion <a name = "data-modeling"></a>
 
-In order to model the data, I performed regression techniques: 1)Linear regression Regression 2)KNN Model 3) Random Forest Model.
+In order to model the data, I performed regression techniques: 1)Linear Regression 2)KNN Model 3) Random Forest Model.
 
 ![alt text](https://github.com/cghimire/Predicting-IMDB-Ratings/blob/master/Img/KNN.png "KNN")
+
+* Above plot shows that the accuracy Vs value of K*.
 
 The accuracy for linear regression model is 66%. Which is not a good model to predict imdb rating. The KNN model gives 81% of accuracy. The Random forest model has learned how to predict the imdb rating with 90% accuracy.
 
