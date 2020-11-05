@@ -15,9 +15,7 @@
 - [About](#about)
 - [Data Understanding and Exploring](#data_understanding_and_exploring)
 - [Data Preparation](#data-preparation)
-- [Data Modeling](#data-modeling)
-- [Model Evaluation and Conclusion](#model-evaluation-and-conclusion)
-- [Acknowledgments](#acknowledgement)
+- [Data Modeling and Conclusion](#data-modeling)
 
 ## 🧐 About <a name = "about"></a>
 
