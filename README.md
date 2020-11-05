@@ -40,25 +40,12 @@ I have used hollywood movie data set and their rating from IMDb movie rating. I 
 
 *This figure shows that the correlation matrix between variables. The "cast_total_facebook_likes" has a strong positive correlation with the "actor_1_facebook_likes", and has smaller positive correlation with both "actor_2_facebook_likes" and "actor_3_facebook_likes" ans so on.*
 
-## 🚀 Data Modeling <a name = "data-modeling"></a>
+## 🚀 Data Modeling and Conclusion <a name = "data-modeling"></a>
 
 In order to model the data, I performed regression techniques: 1)Linear regression Regression 2)KNN Model 3) Random Forest Model.
 
 ![alt text](https://github.com/cghimire/Predicting-IMDB-Ratings/blob/master/Img/KNN.png "KNN")
 
-The accuracy for linear regression model is 66%.Which is very bad model to predict imdb rating!. The KNN model gives 81% of accuracy. Which is not bad model to predict imdb rating. 
+The accuracy for linear regression model is 66%. Which is not a good model to predict imdb rating. The KNN model gives 81% of accuracy. The Random forest model has learned how to predict the imdb rating with 90% accuracy.
 
-Our model has now been trained to learn the relationships between the features and the targets. The next step is figuring out how good the model is! To do this we make predictions on the test features. We then compare the predictions to the known answers. That looks pretty good! Our model has learned how to predict the imdb rating with 90% accuracy.
 By comparing the results, I would suggest Random Forest Model could be useful to deploy into production.
-
-## Model Evaluation and Conclusion <a name = "model-evaluation-and-conclusion"></a>
-
-![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/AccuracyVsTreeSize.png "Accuracy Vs Treesize")
-
-*This figure shows Effect of increasing tree count on accuracy in Random Forest Model*.
-
-I performed three different classification models to classify whether a customer would open a bank account or not. Based on the model build for this project, Decision Tree and Random Forest model are more accurate to predict the output. The Random Forest model is a recommended model for this classification problem.
-
-Since I have been using different data mining techniques, I am expecting the proposed classification models are powerful to predict the output. However, the proposed methods has some limitations. It is not feasible to study all the variables in detail, which might be interesting to predict the output, because of time limitation.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
